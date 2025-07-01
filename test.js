@@ -1,8 +1,8 @@
-const options = ['rock', 'paper', 'scissors'];
+/* const options = ['rock', 'paper', 'scissors'];
 
 const randomIndex = Math.floor(Math.random() * options.length);
 const randomOption = options[randomIndex];
-console.log(randomOption);
+console.log(randomOption); */
 
 /* if (button == 'Rock' && randomOption == 'scissors'){
     alert('randomOption');
@@ -11,3 +11,5 @@ console.log(randomOption);
 else{
     alert('You lose');
 } */
+
+const randomNumber = Math.random();

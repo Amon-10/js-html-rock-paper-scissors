@@ -8,7 +8,7 @@
 <body>
     <h1>Rock-Paper-Scissors-Game</h1>
     <button onclick="
-        const randomNumber = Math.random();
+        /* const randomNumber = Math.random(); */
         console.log(randomNumber);
         
         if (randomNumber <= 1/3) {
@@ -22,13 +22,25 @@
         }">
         Rock
     </button>
-    <button>
+    <button onclick="
+        /* const randomNumber = Math.random(); */
+        console.log(randomNumber);
+        
+        if (randomNumber <= 1/3) {
+            alert('You picked paper. Computer picked picked rock. You win.');
+        }
+        else if(randomNumber > 1/3 && randomNumber < 2/3){
+            alert('You picked paper. Computer picked paper. It is a tie.')
+        }
+        else {
+            alert('You picked paper. Computer picked scissors. You lose.')
+        }">
         Paper
     </button>
     <button>
         Scissors
     </button>
-    <script>
+    <script src="test.js">
 
     </script>
 </body>
