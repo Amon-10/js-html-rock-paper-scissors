@@ -12,4 +12,4 @@ else{
     alert('You lose');
 } */
 
-const randomNumber = Math.random();
+/* const randomNumber = Math.random(); */

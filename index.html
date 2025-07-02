@@ -8,51 +8,60 @@
 <body>
     <h1>Rock-Paper-Scissors-Game</h1>
     <button onclick="
-
+        const randomNumber = Math.random();
         console.log(randomNumber);
         
         if (randomNumber <= 1/3) {
             alert('You picked rock. Computer picked also picked rock. It is a tie.');
+            console.log('rock');
         }
         else if(randomNumber > 1/3 && randomNumber < 2/3){
-            alert('You picked rock. Computer picked paper. You lose.')
+            alert('You picked rock. Computer picked paper. You lose.');
+            console.log('paper');
         }
         else {
-            alert('You picked rock. Computer picked scissors. You win.')
+            alert('You picked rock. Computer picked scissors. You win.');
+            console.log('scissors');
         }">
         Rock
     </button>
     <button onclick="
-        
+        const randomNumber = Math.random();
         console.log(randomNumber);
         
         if (randomNumber <= 1/3) {
             alert('You picked paper. Computer picked picked rock. You win.');
+            console.log('rock');
         }
         else if(randomNumber > 1/3 && randomNumber < 2/3){
-            alert('You picked paper. Computer picked paper. It is a tie.')
+            alert('You picked paper. Computer picked paper. It is a tie.');
+            console.log('paper');
         }
         else {
-            alert('You picked paper. Computer picked scissors. You lose.')
+            alert('You picked paper. Computer picked scissors. You lose.');
+            console.log('scissors');
         }">
         Paper
     </button>
     <button onclick="
-        
+        const randomNumber = Math.random();
         console.log(randomNumber);
         
         if (randomNumber <= 1/3) {
             alert('You picked scissors. Computer picked picked rock. You lose.');
+            console.log('rock');
         }
         else if(randomNumber > 1/3 && randomNumber < 2/3){
-            alert('You picked scissors. Computer picked paper. You win.')
+            alert('You picked scissors. Computer picked paper. You win.');
+            console.log('paper');
         }
         else {
-            alert('You picked scissors. Computer picked scissors. It is a tie.')
+            alert('You picked scissors. Computer picked scissors. It is a tie.');
+            console.log('scissors');
         }">
         Scissors
     </button>
-    <script src="test.js">
+    <script>
 
     </script>
 </body>
